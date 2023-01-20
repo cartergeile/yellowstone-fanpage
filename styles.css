@@ -1,3 +1,33 @@
-h1 {
-  color: yellow;
+* {
+  text-align: center;
 }
+
+#container {
+  margin: 0px;
+  margin-top: 3vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 33.3%;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.character {
+  border: solid 1px black;
+  margin: 2vw;
+  padding: 20px;
+  background-color: beige;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.character:hover {
+  background-color: rgb(30, 123, 30);
+  border: solid 3px black;
+}
+
+.character-button {
+  position: relative;
+  margin: 30px;
+}
+
